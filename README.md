@@ -16,15 +16,11 @@ Where `target`: `mac` (Metal), `linux` (Vulkan), `pc_dx12` (DirectX 12) or `pc_d
 1. Install Rust iOS target: `rustup target add aarch64-apple-ios`
 1. Install [XcodeGen](https://github.com/yonaskolb/XcodeGen) or brew install xcodegen
 1. `cd` to the `ios` directory
-1. Run XcodeGen
+1. Run xcodegen
 1. Open project in Xcode
 2. add libSystem.tbd , sudo xcode-select --print-path ,sudo xcode-select --switch /Applications/Xcode.app
 3. Run example on device (with metal support)
-
-```bash
-cd ios/
-xcodegen
-```
+ 
 
 ## Android (Vulkan)
 
